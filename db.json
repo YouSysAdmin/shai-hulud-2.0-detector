@@ -1,0 +1,5583 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2025-11-24T19:34:59.871Z",
+  "attackInfo": {
+    "name": "Shai-Hulud 2.0",
+    "alias": "The Second Coming",
+    "firstDetected": "2025-11-24T03:16:00Z",
+    "description": "Self-replicating npm worm targeting credential theft and supply chain compromise"
+  },
+  "indicators": {
+    "maliciousFiles": [
+      "setup_bun.js",
+      "bun_environment.js",
+      "cloud.json",
+      "contents.json",
+      "environment.json",
+      "truffleSecrets.json"
+    ],
+    "maliciousWorkflows": [
+      ".github/workflows/discussion.yaml",
+      ".github/workflows/formatter_*.yml"
+    ],
+    "fileHashes": {
+      "bun_environment.js": "d60ec97eea19fffb4809bc35b91033b52490ca11",
+      "setup_bun.js": "d1829b4708126dcc7bea7437c04d1f10eacd4a16"
+    },
+    "gitHubIndicators": {
+      "runnerName": "SHA1HULUD",
+      "repoDescription": "Shai-Hulud: The Second Coming"
+    }
+  },
+  "stats": {
+    "totalUniquePackages": 790,
+    "byOrganization": {
+      "asyncapi": 36,
+      "posthog": 62,
+      "postman": 17,
+      "ensdomains": 46,
+      "zapier": 16,
+      "voiceflow": 57,
+      "browserbasehq": 7,
+      "okuui": 41,
+      "other": 508
+    }
+  },
+  "packages": [
+    {
+      "name": "02-echo",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@accordproject/concerto-analysis",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@accordproject/concerto-linter",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@accordproject/concerto-linter-default-ruleset",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@accordproject/concerto-metamodel",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@accordproject/concerto-types",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@accordproject/markdown-docx",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@accordproject/markdown-it-cicero",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@accordproject/template-engine",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@actbase/css-to-react-native-transform",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@actbase/native",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@actbase/node-server",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@actbase/react-absolute",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@actbase/react-daum-postcode",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@actbase/react-kakaosdk",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@actbase/react-native-actionsheet",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@actbase/react-native-devtools",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@actbase/react-native-fast-image",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@actbase/react-native-kakao-channel",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@actbase/react-native-kakao-navi",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@actbase/react-native-less-transformer",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@actbase/react-native-naver-login",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@actbase/react-native-simple-video",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@actbase/react-native-tiktok",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@afetcan/api",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@afetcan/storage",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@alaan/s2s-auth",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@alexadark/amadeus-api",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@alexadark/gatsby-theme-events",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@alexadark/gatsby-theme-wordpress-blog",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@alexadark/reusable-functions",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@alexcolls/nuxt-socket.io",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@alexcolls/nuxt-ux",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@antstackio/eslint-config-antstack",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@antstackio/express-graphql-proxy",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@antstackio/graphql-body-parser",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@antstackio/json-to-graphql",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@antstackio/shelbysam",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@aryanhussain/my-angular-lib",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@asyncapi/avro-schema-parser",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@asyncapi/bundler",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@asyncapi/cli",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@asyncapi/converter",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@asyncapi/diff",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@asyncapi/dotnet-rabbitmq-template",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@asyncapi/edavisualiser",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@asyncapi/generator",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@asyncapi/generator-components",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@asyncapi/generator-helpers",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@asyncapi/generator-react-sdk",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@asyncapi/go-watermill-template",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@asyncapi/html-template",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@asyncapi/java-spring-cloud-stream-template",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@asyncapi/java-spring-template",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@asyncapi/java-template",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@asyncapi/keeper",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@asyncapi/markdown-template",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@asyncapi/modelina",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@asyncapi/modelina-cli",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@asyncapi/multi-parser",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@asyncapi/nodejs-template",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@asyncapi/nodejs-ws-template",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@asyncapi/nunjucks-filters",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@asyncapi/openapi-schema-parser",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@asyncapi/optimizer",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@asyncapi/parser",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@asyncapi/php-template",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@asyncapi/problem",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@asyncapi/protobuf-schema-parser",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@asyncapi/python-paho-template",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@asyncapi/react-component",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@asyncapi/server-api",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@asyncapi/specs",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@asyncapi/studio",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@asyncapi/web-component",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@bdkinc/knex-ibmi",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@browserbasehq/bb9",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@browserbasehq/director-ai",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@browserbasehq/mcp",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@browserbasehq/mcp-server-browserbase",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@browserbasehq/sdk-functions",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@browserbasehq/stagehand",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@browserbasehq/stagehand-docs",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@caretive/caret-cli",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@chtijs/eslint-config",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@clausehq/flows-step-httprequest",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@clausehq/flows-step-jsontoxml",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@clausehq/flows-step-mqtt",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@clausehq/flows-step-sendgridemail",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@clausehq/flows-step-taskscreateurl",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@cllbk/ghl",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@commute/bloom",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@commute/market-data",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@commute/market-data-chartjs",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@dev-blinq/ai-qa-logic",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@dev-blinq/blinqioclient",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@dev-blinq/cucumber-js",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@dev-blinq/cucumber_client",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@dev-blinq/ui-systems",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@elsedev/react-csr-sdk",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@ensdomains/address-encoder",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@ensdomains/blacklist",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@ensdomains/buffer",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@ensdomains/ccip-read-cf-worker",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@ensdomains/ccip-read-dns-gateway",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@ensdomains/ccip-read-router",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@ensdomains/ccip-read-worker-viem",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@ensdomains/content-hash",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@ensdomains/curvearithmetics",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@ensdomains/cypress-metamask",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@ensdomains/dnsprovejs",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@ensdomains/dnssec-oracle-anchors",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@ensdomains/dnssecoraclejs",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@ensdomains/durin",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@ensdomains/durin-middleware",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@ensdomains/ens-archived-contracts",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@ensdomains/ens-avatar",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@ensdomains/ens-contracts",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@ensdomains/ens-test-env",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@ensdomains/ens-validation",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@ensdomains/ensjs",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@ensdomains/ensjs-react",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@ensdomains/eth-ens-namehash",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@ensdomains/hackathon-registrar",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@ensdomains/hardhat-chai-matchers-viem",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@ensdomains/hardhat-toolbox-viem-extended",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@ensdomains/mock",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@ensdomains/name-wrapper",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@ensdomains/offchain-resolver-contracts",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@ensdomains/op-resolver-contracts",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@ensdomains/react-ens-address",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@ensdomains/renewal",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@ensdomains/renewal-widget",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@ensdomains/reverse-records",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@ensdomains/server-analytics",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@ensdomains/solsha1",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@ensdomains/subdomain-registrar",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@ensdomains/test-utils",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@ensdomains/thorin",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@ensdomains/ui",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@ensdomains/unicode-confusables",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@ensdomains/unruggable-gateways",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@ensdomains/vite-plugin-i18next-loader",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@ensdomains/web3modal",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@everreal/react-charts",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@everreal/validate-esmoduleinterop-imports",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@everreal/web-analytics",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@faq-component/core",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@faq-component/react",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@fishingbooker/browser-sync-plugin",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@fishingbooker/react-loader",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@fishingbooker/react-pagination",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@fishingbooker/react-raty",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@fishingbooker/react-swiper",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@hapheus/n8n-nodes-pgp",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@hover-design/core",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@hover-design/react",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@huntersofbook/auth-vue",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@huntersofbook/core",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@huntersofbook/core-nuxt",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@huntersofbook/form-naiveui",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@huntersofbook/i18n",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@huntersofbook/ui",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@hyperlook/telemetry-sdk",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@ifelsedeveloper/protocol-contracts-svm-idl",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@ifings/design-system",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@ifings/metatron3",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@jayeshsadhwani/telemetry-sdk",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@kvytech/cli",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@kvytech/components",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@kvytech/habbit-e2e-test",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@kvytech/medusa-plugin-announcement",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@kvytech/medusa-plugin-management",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@kvytech/medusa-plugin-newsletter",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@kvytech/medusa-plugin-product-reviews",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@kvytech/medusa-plugin-promotion",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@kvytech/web",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@lessondesk/api-client",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@lessondesk/babel-preset",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@lessondesk/electron-group-api-client",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@lessondesk/eslint-config",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@lessondesk/material-icons",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@lessondesk/react-table-context",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@lessondesk/schoolbus",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@livecms/live-edit",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@livecms/nuxt-live-edit",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@lokeswari-satyanarayanan/rn-zustand-expo-template",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@louisle2/core",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@louisle2/cortex-js",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@lpdjs/firestore-repo-service",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@lui-ui/lui-nuxt",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@lui-ui/lui-tailwindcss",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@lui-ui/lui-vue",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@markvivanco/app-version-checker",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@mcp-use/cli",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@mcp-use/inspector",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@mcp-use/mcp-use",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@mparpaillon/connector-parse",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@mparpaillon/imagesloaded",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@mparpaillon/page",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@ntnx/passport-wso2",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@ntnx/t",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@oku-ui/accordion",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@oku-ui/arrow",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@oku-ui/aspect-ratio",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@oku-ui/avatar",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@oku-ui/checkbox",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@oku-ui/collapsible",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@oku-ui/collection",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@oku-ui/dialog",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@oku-ui/direction",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@oku-ui/dismissable-layer",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@oku-ui/focus-guards",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@oku-ui/focus-scope",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@oku-ui/hover-card",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@oku-ui/label",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@oku-ui/menu",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@oku-ui/motion",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@oku-ui/motion-nuxt",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@oku-ui/popover",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@oku-ui/popper",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@oku-ui/portal",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@oku-ui/presence",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@oku-ui/primitives",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@oku-ui/primitives-nuxt",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@oku-ui/progress",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@oku-ui/provide",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@oku-ui/radio-group",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@oku-ui/roving-focus",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@oku-ui/scroll-area",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@oku-ui/separator",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@oku-ui/slider",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@oku-ui/slot",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@oku-ui/switch",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@oku-ui/tabs",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@oku-ui/toast",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@oku-ui/toggle",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@oku-ui/toggle-group",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@oku-ui/toolbar",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@oku-ui/tooltip",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@oku-ui/use-composable",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@oku-ui/utils",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@oku-ui/visually-hidden",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@orbitgtbelgium/mapbox-gl-draw-cut-polygon-mode",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@orbitgtbelgium/mapbox-gl-draw-scale-rotate-mode",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@orbitgtbelgium/orbit-components",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@orbitgtbelgium/time-slider",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@osmanekrem/bmad",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@osmanekrem/error-handler",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@pergel/cli",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@pergel/module-box",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@pergel/module-graphql",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@pergel/module-ui",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@pergel/nuxt",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@posthog/agent",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@posthog/ai",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@posthog/automatic-cohorts-plugin",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@posthog/bitbucket-release-tracker",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@posthog/cli",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@posthog/clickhouse",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@posthog/core",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@posthog/currency-normalization-plugin",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@posthog/customerio-plugin",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@posthog/databricks-plugin",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@posthog/drop-events-on-property-plugin",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@posthog/event-sequence-timer-plugin",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@posthog/filter-out-plugin",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@posthog/first-time-event-tracker",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@posthog/geoip-plugin",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@posthog/github-release-tracking-plugin",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@posthog/gitub-star-sync-plugin",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@posthog/heartbeat-plugin",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@posthog/hedgehog-mode",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@posthog/icons",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@posthog/ingestion-alert-plugin",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@posthog/intercom-plugin",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@posthog/kinesis-plugin",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@posthog/laudspeaker-plugin",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@posthog/lemon-ui",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@posthog/maxmind-plugin",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@posthog/migrator3000-plugin",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@posthog/netdata-event-processing",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@posthog/nextjs",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@posthog/nextjs-config",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@posthog/nuxt",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@posthog/pagerduty-plugin",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@posthog/piscina",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@posthog/plugin-contrib",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@posthog/plugin-server",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@posthog/plugin-unduplicates",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@posthog/postgres-plugin",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@posthog/react-rrweb-player",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@posthog/rrdom",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@posthog/rrweb",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@posthog/rrweb-player",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@posthog/rrweb-record",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@posthog/rrweb-replay",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@posthog/rrweb-snapshot",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@posthog/rrweb-utils",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@posthog/sendgrid-plugin",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@posthog/siphash",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@posthog/snowflake-export-plugin",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@posthog/taxonomy-plugin",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@posthog/twilio-plugin",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@posthog/twitter-followers-plugin",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@posthog/url-normalizer-plugin",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@posthog/variance-plugin",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@posthog/web-dev-server",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@posthog/wizard",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@posthog/zendesk-plugin",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@postman/aether-icons",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@postman/csv-parse",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@postman/final-node-keytar",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@postman/mcp-ui-client",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@postman/node-keytar",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@postman/pm-bin-linux-x64",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@postman/pm-bin-macos-arm64",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@postman/pm-bin-macos-x64",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@postman/pm-bin-windows-x64",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@postman/postman-collection-fork",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@postman/postman-mcp-cli",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@postman/postman-mcp-server",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@postman/pretty-ms",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@postman/secret-scanner-wasm",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@postman/tunnel-agent",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@postman/wdio-allure-reporter",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@postman/wdio-junit-reporter",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@pradhumngautam/common-app",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@productdevbook/animejs-vue",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@productdevbook/auth",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@productdevbook/chatwoot",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@productdevbook/motion",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@productdevbook/ts-i18n",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@pruthvi21/use-debounce",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@quick-start-soft/quick-document-translator",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@quick-start-soft/quick-git-clean-markdown",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@quick-start-soft/quick-markdown",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@quick-start-soft/quick-markdown-compose",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@quick-start-soft/quick-markdown-image",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@quick-start-soft/quick-markdown-print",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@quick-start-soft/quick-markdown-translator",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@quick-start-soft/quick-remove-image-background",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@quick-start-soft/quick-task-refine",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@relyt/claude-context-core",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@relyt/claude-context-mcp",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@relyt/mcp-server-relytone",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@sameepsi/sor",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@sameepsi/sor2",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@seezo/sdr-mcp-server",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@seung-ju/next",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@seung-ju/openapi-generator",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@seung-ju/react-hooks",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@seung-ju/react-native-action-sheet",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@silgi/better-auth",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@silgi/drizzle",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@silgi/ecosystem",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@silgi/graphql",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@silgi/module-builder",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@silgi/openapi",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@silgi/permission",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@silgi/ratelimit",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@silgi/scalar",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@silgi/yoga",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@sme-ui/aoma-vevasound-metadata-lib",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@strapbuild/react-native-date-time-picker",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@strapbuild/react-native-perspective-image-cropper",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@strapbuild/react-native-perspective-image-cropper-2",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@strapbuild/react-native-perspective-image-cropper-poojan31",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@suraj_h/medium-common",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@thedelta/eslint-config",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@tiaanduplessis/json",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@tiaanduplessis/react-progressbar",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@trackstar/angular-trackstar-link",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@trackstar/react-trackstar-link",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@trackstar/react-trackstar-link-upgrade",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@trackstar/test-angular-package",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@trackstar/test-package",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@trefox/sleekshop-js",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@trigo/atrix",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@trigo/atrix-acl",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@trigo/atrix-elasticsearch",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@trigo/atrix-mongoose",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@trigo/atrix-orientdb",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@trigo/atrix-postgres",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@trigo/atrix-pubsub",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@trigo/atrix-redis",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@trigo/atrix-soap",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@trigo/atrix-swagger",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@trigo/bool-expressions",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@trigo/eslint-config-trigo",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@trigo/fsm",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@trigo/hapi-auth-signedlink",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@trigo/jsdt",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@trigo/keycloak-api",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@trigo/node-soap",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@trigo/pathfinder-ui-css",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@trigo/trigo-hapijs",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@trpc-rate-limiter/cloudflare",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@trpc-rate-limiter/hono",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@varsityvibe/api-client",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@varsityvibe/utils",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@varsityvibe/validation-schemas",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@viapip/eslint-config",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@vishadtyagi/full-year-calendar",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@voiceflow/alexa-types",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@voiceflow/anthropic",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@voiceflow/api-sdk",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@voiceflow/backend-utils",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@voiceflow/base-types",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@voiceflow/body-parser",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@voiceflow/chat-types",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@voiceflow/circleci-config-sdk-orb-import",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@voiceflow/commitlint-config",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@voiceflow/common",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@voiceflow/default-prompt-wrappers",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@voiceflow/dependency-cruiser-config",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@voiceflow/dtos-interact",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@voiceflow/encryption",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@voiceflow/eslint-config",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@voiceflow/eslint-plugin",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@voiceflow/exception",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@voiceflow/fetch",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@voiceflow/general-types",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@voiceflow/git-branch-check",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@voiceflow/google-dfes-types",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@voiceflow/google-types",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@voiceflow/husky-config",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@voiceflow/logger",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@voiceflow/metrics",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@voiceflow/natural-language-commander",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@voiceflow/nestjs-common",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@voiceflow/nestjs-mongodb",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@voiceflow/nestjs-rate-limit",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@voiceflow/nestjs-redis",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@voiceflow/nestjs-timeout",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@voiceflow/npm-package-json-lint-config",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@voiceflow/openai",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@voiceflow/pino",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@voiceflow/pino-pretty",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@voiceflow/prettier-config",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@voiceflow/react-chat",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@voiceflow/runtime",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@voiceflow/runtime-client-js",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@voiceflow/sdk-runtime",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@voiceflow/secrets-provider",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@voiceflow/semantic-release-config",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@voiceflow/serverless-plugin-typescript",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@voiceflow/slate-serializer",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@voiceflow/stitches-react",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@voiceflow/storybook-config",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@voiceflow/stylelint-config",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@voiceflow/test-common",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@voiceflow/tsconfig",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@voiceflow/tsconfig-paths",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@voiceflow/utils-designer",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@voiceflow/verror",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@voiceflow/vite-config",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@voiceflow/vitest-config",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@voiceflow/voice-types",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@voiceflow/voiceflow-types",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@voiceflow/widget",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@vucod/email",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@zapier/ai-actions",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@zapier/ai-actions-react",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@zapier/babel-preset-zapier",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@zapier/browserslist-config-zapier",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@zapier/eslint-plugin-zapier",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@zapier/mcp-integration",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@zapier/secret-scrubber",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@zapier/spectral-api-ruleset",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@zapier/stubtree",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "@zapier/zapier-sdk",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "ai-crowl-shield",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "arc-cli-fc",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "asciitranslator",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "asyncapi-preview",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "atrix",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "atrix-mongoose",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "automation_model",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "avvvatars-vue",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "axios-builder",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "axios-cancelable",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "axios-timed",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "babel-preset-kinvey-flex-service",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "barebones-css",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "benmostyn-frame-print",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "best_gpio_controller",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "bestgpiocontroller",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "better-auth-nuxt",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "bidirectional-adapter",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "blinqio-executions-cli",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "blob-to-base64",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "bool-expressions",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "buffered-interpolation-babylon6",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "bun-plugin-httpfile",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "bytecode-checker-cli",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "bytes-to-x",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "calc-loan-interest",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "capacitor-plugin-apptrackingios",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "capacitor-plugin-purchase",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "capacitor-plugin-scgssigninwithgoogle",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "capacitor-purchase-history",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "capacitor-voice-recorder-wav",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "cbre-flow-common",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "ceviz",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "chrome-extension-downloads",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "claude-token-updater",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "coinmarketcap-api",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "colors-regex",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "command-irail",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "compare-obj",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "composite-reducer",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "count-it-down",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "cpu-instructions",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "create-director-app",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "create-glee-app",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "create-hardhat3-app",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "create-kinvey-flex-service",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "create-mcp-use-app",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "create-silgi",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "crypto-addr-codec",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "css-dedoupe",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "csv-tool-cli",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "dashboard-empty-state",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "designstudiouiux",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "devstart-cli",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "dialogflow-es",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "discord-bot-server",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "docusaurus-plugin-vanilla-extract",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "dont-go",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "dotnet-template",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "drop-events-on-property-plugin",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "easypanel-sdk",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "email-deliverability-tester",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "enforce-branch-name",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "esbuild-plugin-brotli",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "esbuild-plugin-eta",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "esbuild-plugin-httpfile",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "eslint-config-nitpicky",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "eslint-config-trigo",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "eslint-config-zeallat-base",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "ethereum-ens",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "evm-checkcode-cli",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "exact-ticker",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "expo-audio-session",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "expo-router-on-rails",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "express-starter-template",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "expressos",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "fat-fingered",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "feature-flip",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "firestore-search-engine",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "fittxt",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "flapstacks",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "flatten-unflatten",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "formik-error-focus",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "formik-store",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "frontity-starter-theme",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "fuzzy-finder",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "gate-evm-check-code2",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "gate-evm-tools-test",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "gatsby-plugin-antd",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "gatsby-plugin-cname",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "generator-meteor-stock",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "generator-ng-itobuz",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "get-them-args",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "github-action-for-generator",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "gitsafe",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "go-template",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "gulp-inject-envs",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "haufe-axera-api-client",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "hope-mapboxdraw",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "hopedraw",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "hover-design-prototype",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "httpness",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "hyper-fullfacing",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "hyperterm-hipster",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "ids-css",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "ids-enterprise-mcp-server",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "ids-enterprise-ng",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "ids-enterprise-typings",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "image-to-uri",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "insomnia-plugin-random-pick",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "invo",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "iron-shield-miniapp",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "ito-button",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "itobuz-angular",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "itobuz-angular-auth",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "itobuz-angular-button",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "jacob-zuma",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "jaetut-varit-test",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "jan-browser",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "jquery-bindings",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "jsonsurge",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "just-toasty",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "kill-port",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "kinetix-default-token-list",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "kinvey-flex-scripts",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "korea-administrative-area-geo-json-util",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "kwami",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "lang-codes",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "license-o-matic",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "lint-staged-imagemin",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "lite-serper-mcp-server",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "lui-vue-test",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "luno-api",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "manual-billing-system-miniapp-api",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "mcp-use",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "medusa-plugin-announcement",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "medusa-plugin-logs",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "medusa-plugin-momo",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "medusa-plugin-product-reviews-kvy",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "medusa-plugin-zalopay",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "mod10-check-digit",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "mon-package-react-typescript",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "my-saeed-lib",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "n8n-nodes-tmdb",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "n8n-nodes-vercel-ai-sdk",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "n8n-nodes-viral-app",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "nanoreset",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "next-circular-dependency",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "next-simple-google-analytics",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "next-styled-nprogress",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "ngx-useful-swiper-prosenjit",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "ngx-wooapi",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "nitro-graphql",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "nitro-kutu",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "nitrodeploy",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "nitroping",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "normal-store",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "nuxt-keycloak",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "obj-to-css",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "okta-react-router-6",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "open2internet",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "orbit-boxicons",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "orbit-nebula-draw-tools",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "orbit-nebula-editor",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "orbit-soap",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "orchestrix",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "package-tester",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "parcel-plugin-asset-copier",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "pdf-annotation",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "pergel",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "pergeltest",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "piclite",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "pico-uid",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "pkg-readme",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "poper-react-sdk",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "posthog-docusaurus",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "posthog-js",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "posthog-node",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "posthog-plugin-hello-world",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "posthog-react-native",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "posthog-react-native-session-replay",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "prime-one-table",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "prompt-eng",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "prompt-eng-server",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "puny-req",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "quickswap-ads-list",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "quickswap-default-staking-list",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "quickswap-default-staking-list-address",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "quickswap-default-token-list",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "quickswap-router-sdk",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "quickswap-sdk",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "quickswap-smart-order-router",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "quickswap-token-lists",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "quickswap-v2-sdk",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "ra-auth-firebase",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "ra-data-firebase",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "react-component-taggers",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "react-data-to-export",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "react-element-prompt-inspector",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "react-favic",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "react-hook-form-persist",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "react-jam-icons",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "react-keycloak-context",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "react-library-setup",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "react-linear-loader",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "react-micromodal.js",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "react-native-datepicker-modal",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "react-native-email",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "react-native-fetch",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "react-native-get-pixel-dimensions",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "react-native-google-maps-directions",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "react-native-jam-icons",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "react-native-log-level",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "react-native-modest-checkbox",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "react-native-modest-storage",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "react-native-phone-call",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "react-native-retriable-fetch",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "react-native-use-modal",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "react-native-view-finder",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "react-native-websocket",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "react-native-worklet-functions",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "react-packery-component",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "react-qr-image",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "react-scrambled-text",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "rediff",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "rediff-viewer",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "redux-forge",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "redux-router-kit",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "revenuecat",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "rollup-plugin-httpfile",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "sa-company-registration-number-regex",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "sa-id-gen",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "samesame",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "scgs-capacitor-subscribe",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "scgsffcreator",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "schob",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "selenium-session",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "selenium-session-client",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "set-nested-prop",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "shelf-jwt-sessions",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "shell-exec",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "shinhan-limit-scrap",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "silgi",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "simplejsonform",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "skills-use",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "solomon-api-stories",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "solomon-v3-stories",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "solomon-v3-ui-wrapper",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "soneium-acs",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "sort-by-distance",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "south-african-id-info",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "stat-fns",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "stoor",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "sufetch",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "super-commit",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "svelte-autocomplete-select",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "svelte-toasty",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "tanstack-shadcn-table",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "tavily-module",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "tcsp",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "tcsp-draw-test",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "tcsp-test-vd",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "template-lib",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "template-micro-service",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "tenacious-fetch",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "test-foundry-app",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "test-hardhat-app",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "test23112222-api",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "tiaan",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "tiptap-shadcn-vue",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "token.js-fork",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "toonfetch",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "trigo-react-app",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "ts-relay-cursor-paging",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "typeface-antonio-complete",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "typefence",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "typeorm-orbit",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "unadapter",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "undefsafe-typed",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "unemail",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "uniswap-router-sdk",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "uniswap-smart-order-router",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "uniswap-test-sdk-core",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "unsearch",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "uplandui",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "upload-to-play-store",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "url-encode-decode",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "use-unsaved-changes",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "utilitas",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "v-plausible",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "valid-south-african-id",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "valuedex-sdk",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "vf-oss-template",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "victoria-wallet-constants",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "victoria-wallet-core",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "victoria-wallet-type",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "victoria-wallet-utils",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "victoria-wallet-validator",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "victoriaxoaquyet-wallet-core",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "vite-plugin-httpfile",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "vue-browserupdate-nuxt",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "wallet-evm",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "wallet-type",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "web-scraper-mcp",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "web-types-htmx",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "web-types-lit",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "webpack-loader-httpfile",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "wellness-expert-ng-gallery",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "wenk",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "zapier-async-storage",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "zapier-platform-cli",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "zapier-platform-core",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "zapier-platform-legacy-scripting-runner",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "zapier-platform-schema",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "zapier-scripts",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "zuper-cli",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "zuper-sdk",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    },
+    {
+      "name": "zuper-stream",
+      "severity": "critical",
+      "affectedVersions": [
+        "*"
+      ]
+    }
+  ],
+  "sources": [
+    "https://www.aikido.dev/blog/shai-hulud-strikes-again-hitting-zapier-ensdomains",
+    "https://www.wiz.io/blog/shai-hulud-2-0-ongoing-supply-chain-attack",
+    "https://helixguard.ai/blog/malicious-sha1hulud-2025-11-24"
+  ]
+}
