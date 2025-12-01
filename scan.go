@@ -472,9 +472,17 @@ func checkMaliciousDomains(root string) []SecurityFinding {
 	return findings
 }
 
+func resolveWorkflowsDir(root string) string {
+	p := filepath.ToSlash(root)
+	if strings.HasSuffix(p, "/.github/workflows") || strings.HasSuffix(p, ".github/workflows") {
+		return root
+	}
+	return filepath.Join(root, ".github", "workflows")
+}
+
 func checkMaliciousRunners(root string) []SecurityFinding {
 	var findings []SecurityFinding
-	workflows := filepath.Join(root, ".github", "workflows")
+	workflows := resolveWorkflowsDir(root)
 
 	walkTextFiles(workflows, 256*1024, func(path string, _ fs.DirEntry, content string) {
 		for _, pat := range maliciousRunnerPatterns {
@@ -517,7 +525,7 @@ func checkShaiHuludRepos(root string) []SecurityFinding {
 
 func checkMaliciousWorkflowFiles(root string) []SecurityFinding {
 	var findings []SecurityFinding
-	workflowsDir := filepath.Join(root, ".github", "workflows")
+	workflowsDir := resolveWorkflowsDir(root)
 
 	filepath.WalkDir(workflowsDir, func(path string, d fs.DirEntry, err error) error {
 		if err != nil {
