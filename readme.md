@@ -2,8 +2,6 @@
 
 ```
 Usage of ../shai-hulud-detector-darwin-arm64:
-  -db string
-        Path to compromised packages database (JSON), overrides embedded DB if set
   -dir string
         Directory to scan (default ".")
   -fail-on-any
